@@ -43,7 +43,7 @@ def process_video(file_path, model):
 
             if predicted_class == 1:
                 cap.release()
-                return "Fight detected!"
+                return "Anomoly detected!"
 
     cap.release()
     return "No fight detected."
